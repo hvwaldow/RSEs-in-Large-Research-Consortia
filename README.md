@@ -15,3 +15,6 @@ https://www.listserv.dfn.de/sympa/subscribe/inf-projects-in-crcs?previous_action
 
 Matrix space:
 https://matrix.to/#/#inf-projects-in-crcs:matrix.org
+
+Meeting Notes
+https://cryptpad.digitalcourage.de/code/#/2/code/edit/FQ8Lv5OdgTztjCQGC8BE+e0Z/
