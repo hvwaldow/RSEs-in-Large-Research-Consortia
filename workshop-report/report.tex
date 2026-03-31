@@ -5,10 +5,15 @@
 % Required packages
 % =================
 \usepackage{subfig}
-\usepackage{xcolor}
+
 \usepackage{orcidlink}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{accsupp}
+
+%Mathematical formula accessibility and machine-readability: if you add
+\usepackage[accsupp]{axessibility}
+\pdfcompresslevel=1
+%in the article preamble, you can select an equation and copy-paste it to a text file to recover the TeX math
 
 
 % PDF accessibility and PDF metadata
@@ -39,7 +44,6 @@ Frank Löffler\authorOrcid{0000-0001-6643-6323}\authorRef{3},
 \autlabel{4} Another Place\\
 }
 
-
 \abstract{% Abstract of the article
 In the Research funding landscape of Germany, so-called collaborative Research Centers (CRCs) play a crucial role in the competitive funding steered by the German Research Society.
 Digital tools have become so common in academic research that more and more processes in the research cycle require their use.
@@ -58,13 +62,14 @@ Building on that and on the workshop held at the de-RSE26 conference we collect 
 % and color profiles in the PDF file. When used, it must appear last in the
 % preamble to avoid conflicts with other packages (the pdfx package loads
 % hyperref and xcolor).
-%\usepackage[a-3u]{pdfx}
-%\begin{filecontents}[overwrite]{\jobname.xmpdata}
-%\Author{Kim Doe}
-%\Title{My Title}
-%\Language{English}
-%\Subject{Software Science and Technology}
-%\end{filecontents}
+
+\usepackage[a-3u]{pdfx}
+\begin{filecontents}[overwrite]{\jobname.xmpdata}
+\Author{Hamza Oukili, Florian Goth, Bernd Flemisch et al.}
+\Title{INF Projects in Germany's CRCs --- an overview and lessons learned}
+\Language{English}
+\Subject{Software Science and Technology}
+\end{filecontents}
 
 
 \begin{document}
