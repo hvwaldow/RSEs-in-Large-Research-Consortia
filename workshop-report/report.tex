@@ -61,9 +61,49 @@ This report tries to catalogue the INF projects in Germany's research landscape.
 Building on that and on the workshop held at the de-RSE26 conference we collect lessons learned across INF projects and distill the discussion into guides that other INF projects (or similar structures) can follow.
 
 \section{History of the INF projects}
-The German Research Foundation(GRF, DFG) has early on recognised the importance of research data as ``primary data'' in their
-memorandum on ``Safeguarding Good Scientific Practice'' \cite{DFG1998} and has put out the recommendation to take special care
-of that data at the host institution. In order to facilitate that, some CRCs started to include personel that handles data management.
+The beginnings of specialised, shared positions within CRCs can be traced back to the foundation of the CRC 299 which was established in 1997 to survey the use of land under various characterisitics. Being interdisciplinary and already aiming for the maximum runtime of 12 years it was apparent from the beginning \cite{mueckschel2006} that a careful
+management of data has to happen in order to be useful for all associated disciplines.
+Around the same time, various incidents of scientific misconduct prompted the German Research Foundation(GRF, DFG) to highlight in their
+memorandum on ``Safeguarding Good Scientific Practice'' \cite{DFG1998}
+the importance of research data as ``primary data''  and has put out the recommendation to take special care
+of that data at the host institution.
+Combining both requirements more CRCs started to include personel that handles data management.
+A first workshop \cite{SFB299-2004, SFB299-2005} on comparing lessons learned was organised by CRC 299 and CRC 552 in 2004 in Gießen.
+The respective follow-up workshop was organised again by CRC 299 and CRC 552 in 2007 \cite{SFB299-2007}.
+Around the same time the process of having dedicated projects for the information infrastructure was formalised
+and since 2007 INF projects can be applied for in CRCs at the GRF with the first projects starting around 2009 \cite{Forschungsdateninfrastruktur2013}.
+Moving on, the regional focus shifts to cologne.
+In 2009 a workshop was organised by TRR32 and CRC806
+bringing together almost 80 participants from a diverse set of disciplines which published their experiences in a
+Post-Proceedings volume \cite{curdt787}.
+The next meet-up was organised by the project Radieschen
+``Rahmenbedingungen einer disziplinübergreifenden Forschungsdateninfrastruktur''
+in Götttingen \cite{Forschungsdateninfrastruktur2013}. Among the participants they observed,
+that most INF projects were with central institutions like libraries and compute centers and maintained central
+research data management infrastructures for research collaboration. And, again, acceptance of the INF projects was brought up.\\
+Between 2013 and 2015 the number of funded INF projects increased and hence the funding line more established \cite{Engelhardt2013Forschungsdatenmanagement, bastian_2025}
+
+Another follow-up workshop was held in Göttingen in 2018 \cite{Roertgen2019} and a workshop co-located with de-RSE19 in Potsdam.
+Around 2022 the DFG hands out guidelines for the INF projects \cite{bastian_2025}.
+Anither meet-up tht should belong in this list was organised by the DINI/nestor AG Forschungsdaten in 2020\cite{Rizzolli_2021},
+that discussed how muc the tasks of an INF project match with the tasks of data stewards.
+Again in Cologne, another workshop was hosted \cite{bastian_2025}. A notable insight is, that no particpant has been to any
+of the previous workshops, and it was noted, that following the rules is still a better motivator for following data
+management guidelines, than any intrinsic motivation from the scientists.
+In March 2026 we held a small workshop at de-RSE26. Notable is here, that as many Research Software Engineers have been present
+as Research Data Managers.
+
+Already early on \cite{mueckschel2006} it was noted that central challenges of a data management solution will be
+\begin{itemize}
+ \item personel fluctuations over the runtime of a CRC,
+ \item safe storage for the lifetime of a CRC,
+ \item adaptation to the scientists questions over the evolution of their research
+ \item extensibility and openness of any system,
+ \item acceptance by the users
+\end{itemize}
+of any measure of the information system administered by the data stewarts.
+These are topics that persist until today,
+and we will try to find out which answers the current generation of INF projects finds.
 
 
 \section{INF Projects in Germany}
@@ -71,7 +111,7 @@ In this section we describe the various INF projects in Germany, how they see th
 In this paper we exclusively refer to these projects as INF projects, but within the resepective CRCs, also other acronyms are used.
 
 \subsection{Project Z03 --- Sustainable code development and optimization on modern supercomputing architectures, \href{https://gepris.dfg.de/gepris/projekt/258499086?language=en}{SFB1170 - Topological and Correlated Electronics at Surfaces and Interfaces, ``ToCoTronics''}, Universität Würzburg}
-Established in 2015 as a support unit for the theoretically working departments the focus was on numerical methods for Quantum Monte Carlo methods, functional renormalization group techniques and non-equilibrium Green's function techniques. These methods are usually used on
+Established in 2015 as a support unit for the theoretically working projects of the CRC the focus was on numerical methods for Quantum Monte Carlo methods, functional renormalization group techniques and non-equilibrium Green's function techniques. These methods are usually used on
 Germany's HPC systems, therefore the tight integration between software development, deep knowledge about the methods used in the CRCs science and a knowledge about the targeted platforms became paramount to this INF project staffed by one person.
 To facilitate the spread of knowledge regular teaching opportunities were organised based on the materials of \href{https://carpentries.org/}{the Carpentries} in collaboration with the local biology department.
 From the very beginning also the maintenance of the local IT infrastructure of the physics department was part of the project which included
@@ -121,6 +161,8 @@ Hint: Limit this section to around a quarter of a page
 In this section we summarise the lessons we have learned together in this workshop.
 \subsection{Outreach, Collaboration and Networking}
 Here we discuss, how can we become known to the scientists in our CRCs, how do we collaborate with them, and which networks out there can help us.
+
+maybe interesting: \cite{Hausen_Rosenberg_Trautwein-Bruns_Schwarz_2020}
 
 Discussion Group 1\\
 
@@ -247,7 +289,6 @@ We acknowledge the hospitality of the university of Stuttgart for hosting this w
 FG acknowledges funding from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through the SFB 1170 “Tocotronics”, project Z03 - project number \geprislink{258499086}.
 \end{acknowledge}
 
-\nocite{*}
 \bibliographystyle{eceasst}
 \bibliography{report}
 
